@@ -122,9 +122,10 @@ A cor da faixa lateral de cada cartão indica o tipo da ação: **azul** para di
 ## Como usar
 
 ### Opção 1: executar o `.exe`
-1. Baixe a pasta do programa.
-2. Dê dois cliques em `CentralSuporte.exe` e aceite o aviso de administrador.
-3. Escolha uma categoria, clique em uma ação e acompanhe o terminal.
+1. Instale o Python em [python.org](https://www.python.org/downloads/), marcando **Add python.exe to PATH**.
+2. Deixe o `central_suporte.py` e o `gerar_exe.bat` na mesma pasta e execute o `gerar_exe.bat`.
+3. O gerador cria a pasta **Central de Suporte** na área de trabalho, compila o `CentralSuporte.exe` dentro dela e move os arquivos para lá.
+4. Para utilizar o programa,clicar 2 vezes no arquivo `CentralSuporte.exe` e permita a executar como administrador.
 
 ### Opção 2: executar o código-fonte
 ```bat
@@ -132,10 +133,7 @@ python central_suporte.py
 ```
 O programa pede elevação de administrador sozinho.
 
-### Opção 3: gerar o seu próprio `.exe`
-1. Instale o Python em [python.org](https://www.python.org/downloads/), marcando **Add python.exe to PATH**.
-2. Deixe o `central_suporte.py` e o `gerar_exe.bat` na mesma pasta e execute o `gerar_exe.bat`.
-3. O gerador cria a pasta **Central de Suporte** na área de trabalho, compila o `CentralSuporte.exe` dentro dela e move os arquivos para lá.
+
 
 Estrutura depois da instalação:
 
